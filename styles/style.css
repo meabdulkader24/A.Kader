@@ -15,6 +15,15 @@
     font-weight: bold;
     color: #0D1321;
   }
+  .primary-color-1{
+    background-color: #FFF6F4;
+  }
+  .primary-color-2{
+    background-color: #F2F6FE;
+  }
+  .primary-color-3{
+    background-color: #FFFDF2;
+  }
 
 /*Header style start*/
 .header-top{
@@ -115,13 +124,63 @@
 }
 /*current-target-section style*/
 .current-section-content{
-  padding: 0px 200px;
+  padding: 0px 100px 25px 100px;
 }
 .current-target-section{
-  padding: 0px 200px;
+  padding: 0px 120px;
 }
 .skills-section{
   display:flex;
   margin: 20px;
 }
+.skill-item{
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+/*support section*/
+.support-content{
+  background-image: url("../assets/handshake.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 1140px;
+  height: 315px;
+  margin: 0 auto;
+}
+.support-title{
+  color: #FFF6F4;
+  text-align: center;
+  font-size: 32px;
+  padding-top: 20px;
+}
+.support-description{
+  color: #FFF6F4;
+  text-align: center;
+  padding: 0px 250px;
+}
+.input-section{
+  padding: 0px 152px;
+}
+.feedback-input{
+  padding: 20px 250px;
+  border-radius: 5px;
+  border: none;
+  text-align: left;
+  margin: 5px;
+}
+.feedback-submit{
+  padding: 20px 50px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+}
 /*Main style End*/ 
+/*footer Style*/
+.site-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.social-link{
+  list
+}
