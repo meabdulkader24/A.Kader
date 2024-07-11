@@ -24,6 +24,9 @@
   .primary-color-3{
     background-color: #FFFDF2;
   }
+  P{
+    color: #555A63;
+  }
 
 /*Header style start*/
 .header-top{
@@ -81,7 +84,7 @@
   padding: 150px;
 }
 .web-development-content{
-  background-color: #E7ECFF;
+  background-color: #FAFAFB;
   border-radius: 10px;
   padding: 100px;
 }
@@ -102,8 +105,9 @@
   margin-bottom: 10px;
 }
 .info-text{
-  background-color: #f4f5fa;
+  background:linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 25%, #eeeeee1c 82%);
   padding: 0px 200px 0px 50px;
+  border-radius: 15px;
 }
 /*inspiration styles*/
 .inspiration-section{
@@ -146,6 +150,7 @@
   width: 1140px;
   height: 315px;
   margin: 0 auto;
+  border-radius: 15px;
 }
 .support-title{
   color: #FFF6F4;
@@ -177,10 +182,25 @@
 /*Main style End*/ 
 /*footer Style*/
 .site-footer{
+  
+}
+.footer-box{
   display: flex;
   justify-content: space-between;
-  padding: 0px 20px;
+  padding: 0px 100px;
+  margin-top: 50px;
+}
+.footer-text{
+  font-weight: bold;
+}
+.footer-links{
+  list-style: none;
+  display: flex;
+  padding: 0px 10px;
 }
 .social-link{
-  list
+  margin: 0px 10px;
+}
+.footer-box{
+  background-color: #F8F8F8;
 }
